@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentDaoImpl implements StudentDao {
+public class StudentDaoDbcp2Impl implements StudentDao {
 
     List<Student> students;
 
@@ -15,7 +15,7 @@ public class StudentDaoImpl implements StudentDao {
     Statement statement = null;
     ResultSet resultSet = null;
 
-    public StudentDaoImpl(){
+    public StudentDaoDbcp2Impl(){
 
 //        Student student1 = new Student("Robert",0);
 //        Student student2 = new Student("John",1);
